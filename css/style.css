@@ -290,7 +290,7 @@ footer p{
 
 
 @media screen and (max-width: 480px) {
-    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video, .servicos li, .enviar{
+    .caixa, .principal, .conteudo-beneficios, .video, .mapa-conteudo, .servicos li, .enviar{
         width: auto;
     }
 
