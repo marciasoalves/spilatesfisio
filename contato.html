@@ -1,82 +1,55 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name ="viewport" content="width=device-width">
-        <title>SPilatesFisio</title>
-        <link rel="stylesheet" href="css/reset.css">
-        <link rel="stylesheet" href="css/style.css">
-    </head>
+  <head>
+    <meta charset="UTF-8">
+    <meta name ="viewport" content="width=device-width">
+    <title>SPilatesFisio</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
 
     <body>
         <header>
             <div class="caixa">
                 <h1><img src="img/logo-spilatesfisio.png" class="logo"></h1>
                 <nav>
-                     <ul>
+                    <ul>
                         <li><a href="index.html">Home</a></li>
                         <li><a href="servicos.html">Serviços</a></li>
                         <li><a href="galeria.html">Galeria</a></li>
                         <li><a href="contato.html">Contato</a></li>
-                    
-                    <div class="midia-social">
-                        <li><a href="https://www.facebook.com/spilatesfisiomais/"target="_blank"><img src="img/icone-facebook.png"></a></li>
-                        <li><a href="https://www.instagram.com/spilatesfisio/"target="_blank"><img src="img/icone-instagran.jpg"></a></li>
-                        <li><a href="https://api.whatsapp.com/send?phone=5511933320546&text=&source=&data" target="_blank"><img src="img/icone-whatsapp.jpg"></a></li>
-                    </div>
-
+                                  
+                        <div class="midia-social">
+                            <li><a href="https://www.facebook.com/spilatesfisiomais/"target="_blank"><img src="img/icone-facebook.png"></a></li>
+                            <li><a href="https://www.instagram.com/spilatesfisio/"target="_blank"><img src="img/icone-instagran.jpg"></a></li>
+                            <li><a href="https://api.whatsapp.com/send?phone=5511933320546&text=&source=&data" target="_blank"><img src="img/icone-whatsapp.jpg"></a></li>
+                            <li><a href="https://www.youtube.com/channel/UCMCO6JjWCMnzFEoaULjsK-A" target="_blank"><img src="img/icone-youtube.png"></a></li>
+                        </div>
                     </ul>
                 </nav>
             </div>
         </header>
 
         <main>
-            <form>
-                <label for="fornomesobrenome">Nome e Sobrenome</label>
-                <input type="text" id="nomesobrenome" class="input-padrao" riquered>
+            <div class="contato">
+                <h3 class="titulo-principal">Nosso Estabelecimento</h3>
+                <p>Nosso estabelecimento está no coração da cidade.</p>
+                <p>R. Ver. Pedro Bueno de Oliveira,169 - Centro, Francisco Morato - SP</p>
+                <p>Horário de atendimento segunda à sexta das 7:30 às 20:30</p>
+                <p>pilatesfisiogi@gmail.com</p>
+                <p>Telefone <a href="https://api.whatsapp.com/send?phone=5511933320546&text=&source=&data" target="_blank"></a>(11) 93332-0546</p>
+            </div>           
+            <div class="mapa-conteudo">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2591.4731844905004!2d-46.74761359841287!3d-23.28320930401245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cee6d511a15bdd%3A0xb11d5551be3ad571!2sR.%20Ver.%20Pedro%20Bueno%20de%20Oliveira%2C%20169%20-%20Centro%2C%20Francisco%20Morato%20-%20SP%2C%2007901-050!5e0!3m2!1spt-BR!2sbr!4v1581180325319!5m2!1spt-BR!2sbr" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            </div>
+          
+        </main>
 
-                <label for="email">Email</label>
-                <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
-
-                <label for="telefone">Telefone</label>
-                <input type="tel" id="telefone" class="input-padrao" required placeholder="(xx)xxxxx-xxxx">
-
-                <label for="mensagem">Mensagem</label>
-                <textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
-
-                <fieldset>
-                    <legend> Como prefere o nosso contato?</legend>
-                    
-                    <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
-
-                    <label for="radio-telefone"><input type="radio" nome="contato" value="telefone" id="radio-telefone">Telefone</label>
-
-                    <label for="radio-whatsapp"><input type="radio" name="contato" value="Whatsapp" id="radio-whatsapp" checked>WhatsApp</label>
-                
-                </fieldset>
-
-                <fieldset>
-                    <legend> Qual horario prefere ser atendido?</legend>
-                    <select>
-                        <option>Manhã</option>
-                        <option>Tarde</option>
-                        <option>Noite</option>
-                    </select>
-                
-                </fieldset>
-
-                <label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por email?</label>
-
-                <a href="mailto:pilatesfisiogi@gmail.com"><input type= "submit" value="Enviar Formulário" class="enviar"></a>
-                
-            </form>
-        </main>  
         <footer>
-            <img src= "img/logo-studiopf.jpeg">
-            <p class="copyright">&copy; Copyright Studio PilatesFisio+ - 2020</p>
-            <p>Desenvolvido por Márcia Alves</p>
+          <img src="img/logo-studiopf.jpeg">
+          <p class="copyright">&copy; Copyright Studio PilatesFisio+ - 2020</p>
+          <p>Desenvolvido por Márcia Alves</p>
         </footer>
-       
-    </body>
 
-</html>
+     </body>
+</html>    
