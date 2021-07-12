@@ -1,6 +1,4 @@
 /* css do cabeçalho*/
-
-
 body{
     font-family: 'Montserrat', sans-serif;
 }
@@ -15,7 +13,6 @@ header{
     width: 940px;
     margin: 0 auto;
 }
-
 
 .caixa img{
     width: 400px;
@@ -32,6 +29,7 @@ nav li{
     display: inline;
     margin: 0 0 0 15px
 }
+
 nav a{
     text-transform: uppercase;
     color: #000000;
@@ -99,7 +97,6 @@ main {
    display: inline-block;
 
 }
-
 
 .beneficios{
     padding: 3em 0;
@@ -194,6 +191,7 @@ main {
 }
 
 /* css da página galeria*/
+
 .galeria li{
     display: inline-block;
     margin: 30px;
@@ -204,10 +202,17 @@ main {
     height: 300px;
     border-radius: 10px;
 }
-.imagem-galeria:hover{
-    transform: scale(1.8)
 
+.imagem-galeria:hover{
+    transform: scale(1.8);
 }
+.video-galeria:hover{
+    transform: scale(1.8);
+}
+.video-galeria{
+    border-radius: 10px ;
+}
+
 
 /* css contato*/
 
@@ -237,7 +242,6 @@ footer {
 footer img{
     width: 200px
 }
-
 
 footer p{
     margin: 1em ;
